@@ -11,7 +11,7 @@ let package = Package(
             targets: ["AppodealYandexAdapterWrapper"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/appodeal/Appodeal-Swift-Package.git", .upToNextMajor(from: "4.0.0-alpha.1")),
+        .package(url: "https://github.com/appodeal/Appodeal-Swift-Package.git", .upToNextMajor(from: "4.0.0")),
         .package(url: "https://github.com/yandexmobile/yandex-ads-sdk-ios", exact: "8.3.0"),
     ],
     targets: [
