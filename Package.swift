@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/appodeal/Appodeal-Swift-Package.git", .upToNextMajor(from: "4.0.0")),
-        .package(url: "https://github.com/yandexmobile/yandex-ads-sdk-ios", exact: "8.3.0"),
+        .package(url: "https://github.com/yandexmobile/yandex-ads-sdk-ios", exact: "8.7.0"),
     ],
     targets: [
         .target(
@@ -27,8 +27,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppodealYandexAdapter",
-            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealYandexAdapter/8.3.0.2/c3fdd758e2fd/AppodealYandexAdapter.xcframework.zip",
-            checksum: "c3fdd758e2fdde770b16c31634078ffc26801fcfc02dc4f9924d061412fcb8d4"
+            url: "https://appodeal-ios.s3.us-west-1.amazonaws.com/Appodeal/SPM/AppodealYandexAdapter/8.7.0.0/7117841be235/AppodealYandexAdapter.xcframework.zip",
+            checksum: "7117841be235bb5510b67ef7b60bdb787981868642661257bd18cab355a4064f"
         ),
 
     ]
